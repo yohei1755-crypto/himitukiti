@@ -181,12 +181,28 @@ ABOUT
 MENU
 ======================*/
 
-.menu-grid{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    max-width: 500px;
-    margin: 0 auto;
+.menu-guide{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    margin:0 auto 30px;
+    color:#d4af37;
+    font-size:18px;
+    font-weight:bold;
+    text-align:center;
+    animation:pulse 1.8s infinite;
+}
+
+.menu-guide{
+    width:100%;
+    display:block;
+    text-align:center !important;
+    color:#d4af37;
+    font-size:18px;
+    font-weight:bold;
+    margin:0 auto 30px auto;
+    animation:pulse 1.8s infinite;
 }
 
 
@@ -384,7 +400,6 @@ section h2{
 
     width:100%;
     height:380px;
-
     perspective:1000px;
 
 }
@@ -448,4 +463,13 @@ section h2{
     text-align: center;
     padding: 20px;
     margin: 0;
+}
+@keyframes pulse{
+    0%,100%{
+        opacity:1;
+    }
+
+    50%{
+        opacity:0.4;
+    }
 }
