@@ -147,14 +147,7 @@ section{
 
 }
 
-section h2{
-    font-family:"Bebas Neue";
-    font-size:120px;
-    text-align:center;
-    color:#d4af37;
-    margin-top:100px;
-    margin-bottom:100px;
-}
+
 /*=====================
 ABOUT
 ======================*/
@@ -568,8 +561,18 @@ header {
     color:#d4af37;
     margin-bottom:40px;
 }
-section h2 {
-    font-size: 70px !important;
-    margin-top: 100px !important;
-    margin-bottom: 100px !important;
+section h2{
+    font-family:"Bebas Neue";
+    font-size:90px !important;
+    text-align:center;
+    color:#d4af37;
+    margin-top:150px !important;
+    margin-bottom:120px !important;
+}
+@media(max-width:768px){
+    section h2{
+        font-size:55px !important;
+        margin-top:80px !important;
+        margin-bottom:80px !important;
+    }
 }
