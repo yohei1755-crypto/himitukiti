@@ -515,3 +515,51 @@ section h2{
 header {
     display: none !important;
 }
+header {
+    display: none !important;
+}
+
+.hero-logo {
+    margin-top: 0;
+}
+
+.hero-nav {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.hero-nav a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-nav a:hover {
+    color: #d4af37;
+}
+
+
+/* =====================
+   SMARTPHONE
+===================== */
+
+@media(max-width:768px) {
+
+    .hero-nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .hero-nav a {
+        font-size: 15px;
+    }
+
+}
