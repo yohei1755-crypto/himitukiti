@@ -242,26 +242,9 @@ MENU
 
 }
 
-/*=====================
-GALLERY
-======================*/
 
-.gallery-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
 
-.gallery-grid .card {
-    width: 100%;
-}
 
-.gallery-grid .card img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-}　
 
 /*=====================
 ACCESS
@@ -549,4 +532,24 @@ header {
         font-size: 15px;
     }
 
+}
+/* GALLERYを縦並びにする */
+.gallery-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+    width: 100%;
+}
+
+.gallery-grid .card {
+    display: block !important;
+    width: 100% !important;
+    flex: 0 0 auto !important;
+}
+
+.gallery-grid .card img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
 }
