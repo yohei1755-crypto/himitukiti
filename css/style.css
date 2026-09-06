@@ -259,7 +259,7 @@ GALLERY
     border-radius: 15px;
 }
 
-.gallery img:hover{
+.gallery-grid img:hover{
 
     transform:scale(1.05);
 
