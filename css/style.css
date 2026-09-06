@@ -247,22 +247,20 @@ GALLERY
 ======================*/
 
 .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gallery-grid .card {
+    width: 100%;
 }
 
 .gallery-grid .card img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-}
-
-.gallery-grid img:hover{
-
-    transform:scale(1.05);
-
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
 
 /*=====================
