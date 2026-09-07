@@ -546,15 +546,44 @@ header {
     margin-bottom:80px;
 }
 
-.drink-menu img{
-    width:100%;
-    max-width:700px;
-    margin:0 auto;
-    border-radius:20px;
-    cursor:pointer;
+.drink-menu {
+    text-align: center;
+    max-width: 700px;
+    margin: 80px auto;
 }
 
-.drink-menu h2,
+.drink-item {
+    margin-bottom: 70px;
+}
+
+.drink-item img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.drink-item h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 38px;
+    letter-spacing: 3px;
+    color: #d4af37;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0 #000;
+}
+
+.drink-item p {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    color: #f5f5f5;
+    margin: 8px 0;
+    text-shadow: 1px 1px 0 #000;
+}
+
+
+
+
 .other-menu h2{
     font-family:"Bebas Neue";
     font-size:60px;
@@ -575,4 +604,27 @@ section h2{
         margin-top:80px !important;
         margin-bottom:80px !important;
     }
+}
+.drink-list {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.drink-list p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.4);
+    padding: 8px 5px;
+}
+.drink-message {
+    margin-top: 20px;
+    padding: 30px 15px;
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #ddd;
+    line-height: 2;
+    border-top: 1px solid rgba(212, 175, 55, 0.5);
 }
